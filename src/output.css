@@ -722,6 +722,11 @@ video {
   color: rgb(122 157 140 / var(--tw-text-opacity));
 }
 
+.shadow-custom {
+  --tw-shadow-color: #7A9D8C;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 @media (min-width: 1024px) {
   .lg\:mx-20 {
     margin-left: 5rem;
@@ -748,6 +753,10 @@ video {
 
   .lg\:-mr-10 {
     margin-right: -2.5rem;
+  }
+
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .lg\:flex {
